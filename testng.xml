@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="none">  <!-- parallel="methods" will execute all the methods in @Test parallel-->
+<test name="FirefoxTest">
+ 		<parameter name="browser" value="firefox" />
+ 		<parameter name="url" value="https://www.amazon.ca/"/>
+ 		<classes>
+ 			
+ 			<class name="test.TestSelectandBuyKindle"/>
+ 		</classes>
+ 	</test>
+<!-- test name="ChromeTest"                        supports cross browser testing>
+ 		<parameter name="browser" value="chrome" />
+ 		<parameter name="url" value="https://www.amazon.ca/"/>
+ 		<classes>
+ 			
+ 			<class name="test.TestSelectandBuyKindle"/>
+ 		</classes>
+ 	</test-->
+ 	<!-- test name="EdgeTest"       supports cross browser testing>
+ 		<parameter name="browser" value="Edge" />
+ 		<parameter name="url" value="https://www.amazon.ca/"/>
+ 		<classes>
+ 			
+ 			<class name="test.TestSelectandBuyKindle"/>
+ 		</classes>
+ 	</test-->
+ 	
+</suite>

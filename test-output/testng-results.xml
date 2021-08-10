@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20401" started-at="2021-08-10T12:45:37 IST" finished-at="2021-08-10T12:45:58 IST">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="20401" started-at="2021-08-10T12:45:37 IST" finished-at="2021-08-10T12:45:58 IST">
+      <class name="test.TestSelectandBuyKindle">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.TestSelectandBuyKindle@1283bb96]" name="beforeTest" is-config="true" duration-ms="8106" started-at="2021-08-10T12:45:37 IST" finished-at="2021-08-10T12:45:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestSelectandBuyKindle@1283bb96]" name="setUp" is-config="true" duration-ms="1" started-at="2021-08-10T12:45:46 IST" finished-at="2021-08-10T12:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SelectKindle()[pri:0, instance:test.TestSelectandBuyKindle@1283bb96]" name="SelectKindle" duration-ms="8538" started-at="2021-08-10T12:45:46 IST" description="Validate Kindle option from menu and submenu " finished-at="2021-08-10T12:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectKindle -->
+        <test-method status="PASS" signature="BuyKindle()[pri:1, instance:test.TestSelectandBuyKindle@1283bb96]" name="BuyKindle" duration-ms="2012" started-at="2021-08-10T12:45:54 IST" description="Validate User is able to Buy Kindle" finished-at="2021-08-10T12:45:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyKindle -->
+        <test-method status="PASS" signature="verify_EmailOrMob()[pri:2, instance:test.TestSelectandBuyKindle@1283bb96]" name="verify_EmailOrMob" duration-ms="196" started-at="2021-08-10T12:45:56 IST" description="Validate User have asked to enter email or Mobile no" finished-at="2021-08-10T12:45:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_EmailOrMob -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TestSelectandBuyKindle@1283bb96]" name="closeBrowser" is-config="true" duration-ms="1352" started-at="2021-08-10T12:45:56 IST" finished-at="2021-08-10T12:45:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestSelectandBuyKindle -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
